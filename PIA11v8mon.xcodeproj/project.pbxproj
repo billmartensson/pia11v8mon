@@ -11,6 +11,12 @@
 		ABBBB411290FBA38007E2B5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB410290FBA38007E2B5C /* ContentView.swift */; };
 		ABBBB413290FBA3A007E2B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBBB412290FBA3A007E2B5C /* Assets.xcassets */; };
 		ABBBB416290FBA3A007E2B5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBBB415290FBA3A007E2B5C /* Preview Assets.xcassets */; };
+		ABBBB41D290FBDE6007E2B5C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB41C290FBDE6007E2B5C /* StartView.swift */; };
+		ABBBB41F290FD189007E2B5C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB41E290FD189007E2B5C /* SecondView.swift */; };
+		ABBBB421290FD4F0007E2B5C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB420290FD4F0007E2B5C /* ThirdView.swift */; };
+		ABBBB423290FEBEE007E2B5C /* Flik1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB422290FEBEE007E2B5C /* Flik1View.swift */; };
+		ABBBB425290FEC07007E2B5C /* Flik2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB424290FEC07007E2B5C /* Flik2View.swift */; };
+		ABBBB427290FF591007E2B5C /* FancyflikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBB426290FF591007E2B5C /* FancyflikView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		ABBBB410290FBA38007E2B5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABBBB412290FBA3A007E2B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBBB415290FBA3A007E2B5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABBBB41C290FBDE6007E2B5C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		ABBBB41E290FD189007E2B5C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		ABBBB420290FD4F0007E2B5C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		ABBBB422290FEBEE007E2B5C /* Flik1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flik1View.swift; sourceTree = "<group>"; };
+		ABBBB424290FEC07007E2B5C /* Flik2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flik2View.swift; sourceTree = "<group>"; };
+		ABBBB426290FF591007E2B5C /* FancyflikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyflikView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				ABBBB40E290FBA38007E2B5C /* PIA11v8monApp.swift */,
 				ABBBB410290FBA38007E2B5C /* ContentView.swift */,
+				ABBBB420290FD4F0007E2B5C /* ThirdView.swift */,
+				ABBBB426290FF591007E2B5C /* FancyflikView.swift */,
+				ABBBB422290FEBEE007E2B5C /* Flik1View.swift */,
+				ABBBB424290FEC07007E2B5C /* Flik2View.swift */,
+				ABBBB41E290FD189007E2B5C /* SecondView.swift */,
+				ABBBB41C290FBDE6007E2B5C /* StartView.swift */,
 				ABBBB412290FBA3A007E2B5C /* Assets.xcassets */,
 				ABBBB414290FBA3A007E2B5C /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBBB427290FF591007E2B5C /* FancyflikView.swift in Sources */,
+				ABBBB41D290FBDE6007E2B5C /* StartView.swift in Sources */,
+				ABBBB421290FD4F0007E2B5C /* ThirdView.swift in Sources */,
+				ABBBB423290FEBEE007E2B5C /* Flik1View.swift in Sources */,
 				ABBBB411290FBA38007E2B5C /* ContentView.swift in Sources */,
+				ABBBB425290FEC07007E2B5C /* Flik2View.swift in Sources */,
+				ABBBB41F290FD189007E2B5C /* SecondView.swift in Sources */,
 				ABBBB40F290FBA38007E2B5C /* PIA11v8monApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
